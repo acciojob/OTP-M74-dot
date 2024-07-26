@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('code-1').focus();
+    document.getElementById('code-2').focus();
+    document.getElementById('code-3').focus();
+    document.getElementById('code-4').focus();
+    document.getElementById('code-5').focus();
+    document.getElementById('code-6').focus();
+});
+
 const codes = document.querySelectorAll('.code');
 
 codes.forEach((code, idx) => {
