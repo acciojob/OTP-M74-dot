@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+.container {
+    text-align: center;
+}
+#verification_heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#verification_subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.code {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
